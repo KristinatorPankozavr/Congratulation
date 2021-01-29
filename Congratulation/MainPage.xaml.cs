@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Plugin.Messaging;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -53,6 +54,11 @@ namespace Congratulation
             {
                 EntrySubject.Text = $"{picker}";
             }
+        }
+
+        private void ButtonSend_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }
